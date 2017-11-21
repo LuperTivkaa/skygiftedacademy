@@ -1,0 +1,33 @@
+{
+  "name": "skygiftedacademy",
+  "version": "1.0.0",
+  "description": "Official website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuperTivkaa/skygiftedacademy.git"
+  },
+  "author": "Tivkaa Luper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuperTivkaa/skygiftedacademy/issues"
+  },
+  "homepage": "https://github.com/LuperTivkaa/skygiftedacademy#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.6",
+    "rename": "^1.0.4",
+    "run-sequence": "^2.2.0"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  }
+}
