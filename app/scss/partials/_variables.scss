@@ -1,0 +1,28 @@
+//Colors
+//chocolate for primary nav
+$choc: #19070B;
+$choc2: #190710;
+$choc3: #190718;
+$yellow: #F1C40F;
+$yellow2:#F4D03F;
+$yellow3: #F7DC6F;
+$blue: #0404B4;
+$blue2: #013ADF;
+$blue3: #3498db;
+$green: #37ac37;
+$green2: #43b943;
+$green3: #37AC37;
+$general: #ffffff;
+$black: #000;
+$choc-light: lighten($choc, 15%);
+$yelow-dark: darken($yellow, 20%);
+$complement-choc: complement($choc);
+$complement-green: complement($green);
+//fonts to be downloaded from google
+//Paragraph fonts
+$menu: 'Barlow Semi Condensed';
+$para2: 'Open Sans Condensed';
+$para3: 'Varela Round';
+//Nameplate
+$nameplate: 'Dosis';
+$nameplate2: 'Anton';

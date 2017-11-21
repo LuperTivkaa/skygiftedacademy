@@ -1,0 +1,70 @@
+//Centre content wrapper
+@mixin center-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@mixin small-device-center-content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@mixin full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin tablet-device-center-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+// @mixin primary-col {
+//     background-color: $col-bg;
+//     display: inline-block;
+//     width: 80%;
+//     vertical-align: top;
+//     margin-right: -5px;
+//     padding-right: 2px;
+//     padding-left: 0px;
+// }
+// @mixin secondary-col {
+//     background-color: $col-bg;
+//     display: inline-block;
+//     width: 20%;
+//     vertical-align: top;
+//     padding-left: 1px;
+//     //padding-top: 2px 2px;
+// }
+//================================================
+//Media query mixins
+//==============================================
+// @mixin small-device {
+//     .secondary-col {
+//         width: 0%;
+//         display: none !important;
+//         #right-bar-content {
+//             display: none !important;
+//         }
+//     }
+//     .primary-col {
+//         width: 100% !important;
+//         display: block;
+//     }
+// }
+// @mixin tablet-device {
+//     .secondary-col {
+//         display: inline-block !important;
+//         width: 15%;
+//         vertical-align: top;
+//         padding-left: 2px;
+//         padding-top: 1em 0;
+//     }
+//     .primary-col {
+//         display: inline-block !important;
+//         width: 85%;
+//         vertical-align: top;
+//         margin-right: -6px;
+//         padding-right: 2px;
+//     }
+// }
